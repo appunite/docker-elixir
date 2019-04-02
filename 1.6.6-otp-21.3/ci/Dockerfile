@@ -29,6 +29,7 @@ RUN set -xe \
   build-essential \
   ca-certificates \
   git \
+  postgresql-client \
   ' \
   && apt-get update \
   && apt-get install -y --no-install-recommends $ciDeps \
